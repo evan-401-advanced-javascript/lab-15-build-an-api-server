@@ -1,0 +1,35 @@
+{
+  "name": "auth-server",
+  "version": "1.0.0",
+  "description": "## API Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "startDB": "mkdir -p ./db && mongod --dbpath ./db",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cf-supergoose": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11",
+    "morgan": "^1.9.1",
+    "superagent": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evan-401-advanced-javascript/lab-15-build-an-api-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evan-401-advanced-javascript/lab-15-build-an-api-server/issues"
+  },
+  "homepage": "https://github.com/evan-401-advanced-javascript/lab-15-build-an-api-server#readme",
+  "devDependencies": {}
+}
